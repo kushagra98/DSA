@@ -1,4 +1,3 @@
-// Problem Link : https://www.codechef.com/problems/GOLDTRIP
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -11,6 +10,10 @@ using namespace std;
 #define pb push_back
 #define mp make_pair
 #define all(v) v.begin(),v.end()
+
+#pragma GCC target ("avx2")
+#pragma GCC optimization ("O3")
+#pragma GCC optimization ("unroll-loops")
 
 signed main()
 {
